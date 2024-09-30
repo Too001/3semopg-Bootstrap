@@ -1,0 +1,161 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+}
+
+.toptekst {
+    display: flex;
+    justify-content: start;
+    padding-left: 50px;
+    background-color: #000;
+    color: #feee60bb;
+    height: 65px;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: solid 3px #feee60;
+    cursor: default;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100vw;
+}
+
+.toptekst-a {
+    text-decoration: none;
+    color: #feee60;
+    transition: all ease 0.5s;
+    font-weight: lighter;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.toptekst-a:hover {
+    text-decoration: none;
+    color: #6e693b;
+}
+
+
+.center {
+    background-color: #ffffff;
+    text-align: center;
+    min-height: 130px;
+    color: #000;
+    padding-top: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    max-width: 400px;
+    width: 80vw;
+    margin: auto;
+    overflow: hidden;
+    transition: all ease 0.2s;
+}
+
+.center>strong {
+    font-size: 1em;
+}
+
+.center:hover {
+    color: #897d14;
+    cursor: pointer;
+}
+
+
+
+
+.col1-tekst>strong {
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+#col1>div>div>a {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: #000000a8;
+    transition: all ease 0.2s;
+}
+
+#col1>div>div>a:hover {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+.col2-tekst>strong {
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+#col2>div>div>a {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: #000000a8;
+    transition: all ease 0.2s;
+}
+
+#col2>div>div>a:hover {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+.col3-tekst>strong {
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+#col3>div>div>a {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: #000000a8;
+    transition: all ease 0.2s;
+}
+
+#col3>div>div>a:hover {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
+.footer>.container>div>div>a {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: #feee6089;
+    transition: all ease 0.5s;
+    font-weight: lighter;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+.footer>.container>div>div>a:hover {
+    text-decoration: none;
+    color: #feee60;
+    transform: scale(1,5);
+}
+
+.footer>.container>div>div {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: #feee60;
+    transition: all ease 0.2s;
+}
+
+
+.cv {
+    transition: all ease 0.2s;
+    text-decoration: none;
+    color: #feee60c1;
+}
+
+.cv:hover {
+    color: #feee60;
+}
